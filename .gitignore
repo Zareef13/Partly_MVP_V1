@@ -23,3 +23,12 @@ venv/
 
 
 data/surgepure/pdf/
+
+
+# Python
+__pycache__/
+*.pyc
+
+
+# Playwright (VERY IMPORTANT)
+playwright/.cache/
