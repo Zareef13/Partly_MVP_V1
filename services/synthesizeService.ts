@@ -154,7 +154,7 @@ function normalizeSynthesisOutput(out: any, canonicalTitle: string): SynthesisOu
     overview =
       `The ${canonicalTitle} is a digital input module designed for industrial automation systems. ` +
       `Based on available specifications, it supports ${finalKeyFeatures
-        .map(f => f.replace(/^[^:]+:\s*/, ""))
+       .map((f: string) => f.replace(/^[^:]+:\s*/, ""))
         .join(", ")}.`;
   }
 

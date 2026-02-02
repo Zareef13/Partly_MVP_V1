@@ -60,7 +60,7 @@ export async function runProductPipeline(input: {
   // 3. EXTRACT
   const extraction = extractFromHtml({
     html: crawl.html,
-    sourceUrl: crawl.finalUrl || crawl.sourceUrl,
+    sourceUrl: crawl.finalUrl,
     mpn,
     manufacturer
   });
@@ -73,7 +73,7 @@ export async function runProductPipeline(input: {
     datasheetsCount: extraction.datasheets?.length || 0,
     images: extraction.images || [],
     datasheets: extraction.datasheets || [],
-    sourceUrl: crawl.finalUrl || crawl.sourceUrl
+    sourceUrl: crawl.finalUrl 
   };
 
   if (!extraction.ok || (extraction.qualityScore ?? 0) < 0.3) {
@@ -127,7 +127,7 @@ export async function runProductPipeline(input: {
     confidence: Number(finalConfidence.toFixed(2)),
     images: extraction.images || [],
     datasheets: extraction.datasheets || [],
-    sourceUrl: crawl.finalUrl || crawl.sourceUrl
+    sourceUrl: crawl.finalUrl
   };
 
   return result;

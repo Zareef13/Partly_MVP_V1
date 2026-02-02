@@ -1,4 +1,4 @@
-import { discoverProductSources } from "../services/discoveryService.ts";
+import { discoverProductSources } from "../services/discoveryService.js";
 
 const TEST_SKUS = [
   // Clean manufacturer pages

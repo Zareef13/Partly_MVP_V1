@@ -1,4 +1,4 @@
-import { runProductPipeline } from "../services/runProductPipeline.ts";
+import { runProductPipeline } from "../services/runProductPipeline.js";
 
 async function main() {
   const result = await runProductPipeline({

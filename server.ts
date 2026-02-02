@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { enrichRouter } from "./api/enrich";
+import { enrichRouter } from "./api/enrich.js";
 
 const app = express();
 

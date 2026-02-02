@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { runProductPipeline } from "../services/runProductPipeline";
+import { runProductPipeline } from "../services/runProductPipeline.js";
 
 export const enrichRouter = Router();
 
