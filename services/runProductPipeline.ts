@@ -10,9 +10,10 @@ export async function runProductPipeline(input: {
   manufacturer: string;
 }) {
   const { mpn, manufacturer } = input;
+  const canonicalMpn = mpn.replace(/[–—\s]+/g, "-").toUpperCase();
 
   const result: any = {
-    mpn,
+    mpn: canonicalMpn,
     manufacturer,
     discovery: null,
     crawl: null,
@@ -22,14 +23,14 @@ export async function runProductPipeline(input: {
   };
 
   // 1. DISCOVERY
-  const discovery = await discoverProductSources(mpn, manufacturer);
+  const discovery = await discoverProductSources(canonicalMpn, manufacturer);
   result.discovery = discovery;
 
   if (!discovery.primaryProductUrl && discovery.backupUrls.length === 0) {
     result.final = {
       usable: false,
       confidence: 0,
-      reason: "No discoverable product URLs"
+      failureReason: "NO_PRODUCT_URLS"
     };
     return result;
   }
@@ -50,7 +51,7 @@ export async function runProductPipeline(input: {
     result.final = {
       usable: false,
       confidence: 0,
-      reason: "Failed to crawl any product page"
+      failureReason: "CRAWL_FAILED"
     };
     return result;
   }
@@ -61,7 +62,7 @@ export async function runProductPipeline(input: {
   const extraction = extractFromHtml({
     html: crawl.html,
     sourceUrl: crawl.finalUrl,
-    mpn,
+    mpn: canonicalMpn,
     manufacturer
   });
 
@@ -80,7 +81,7 @@ export async function runProductPipeline(input: {
     result.final = {
       usable: false,
       confidence: extraction.qualityScore ?? 0,
-      reason: "Extraction quality too low"
+      failureReason: "LOW_EXTRACTION_QUALITY"
     };
     return result;
   }
@@ -122,8 +123,36 @@ export async function runProductPipeline(input: {
     0.30 * extractionConfidence +
     0.25 * synthesisConfidence;
 
+
+  const specTable =
+  synthesis?.keyFeatures?.map((f: string) => {
+    const idx = f.indexOf(":");
+    if (idx === -1) return null;
+
+    return {
+      name: f.slice(0, idx).trim(),
+      value: f.slice(idx + 1).trim()
+    };
+  }).filter(Boolean) ?? [];
+
   result.final = {
     ...synthesis,
+    specTable,
+    confidenceBreakdown: {
+      discovery: discoveryConfidence,
+      crawl: crawlConfidence,
+      extraction: extractionConfidence,
+      synthesis: synthesisConfidence
+    },
+    productType: (() => {
+      if (!synthesis) return null;
+      const text = `${synthesis.displayTitle ?? ""} ${synthesis.overview ?? ""}`.toLowerCase();
+      if (text.includes("surge")) return "Surge Protection Device";
+      if (text.includes("power supply")) return "Power Supply";
+      if (text.includes("battery")) return "Battery";
+      if (text.includes("relay")) return "Relay";
+      return null;
+    })(),
     usable: finalConfidence >= 0.65,
     confidence: Number(finalConfidence.toFixed(2)),
     images: extraction.images || [],
