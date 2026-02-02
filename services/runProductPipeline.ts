@@ -1,9 +1,9 @@
-import { discoverProductSources } from "./discoveryService.ts";
-import { crawlPage } from "./crawlService.ts";
-import { extractFromHtml } from "./extractService.ts";
-import { normalizeProducts } from "./normalizeProduct.ts";
-import { synthesizeProductContent } from "./synthesizeService.ts";
-import { buildSynthesisInput } from "./buildSynthesisInput.ts";
+import { discoverProductSources } from "./discoveryService.js";
+import { crawlPage } from "./crawlService.js";
+import { extractFromHtml } from "./extractService.js";
+import { normalizeProducts } from "./normalizeProduct.js";
+import { synthesizeProductContent } from "./synthesizeService.js";
+import { buildSynthesisInput } from "./buildSynthesisInput.js";
 
 export async function runProductPipeline(input: {
   mpn: string;
@@ -60,7 +60,7 @@ export async function runProductPipeline(input: {
   // 3. EXTRACT
   const extraction = extractFromHtml({
     html: crawl.html,
-    sourceUrl: crawl.finalUrl || crawl.url,
+    sourceUrl: crawl.finalUrl || crawl.sourceUrl,
     mpn,
     manufacturer
   });
@@ -73,7 +73,7 @@ export async function runProductPipeline(input: {
     datasheetsCount: extraction.datasheets?.length || 0,
     images: extraction.images || [],
     datasheets: extraction.datasheets || [],
-    sourceUrl: crawl.finalUrl || crawl.url
+    sourceUrl: crawl.finalUrl || crawl.sourceUrl
   };
 
   if (!extraction.ok || (extraction.qualityScore ?? 0) < 0.3) {
@@ -127,7 +127,7 @@ export async function runProductPipeline(input: {
     confidence: Number(finalConfidence.toFixed(2)),
     images: extraction.images || [],
     datasheets: extraction.datasheets || [],
-    sourceUrl: crawl.finalUrl || crawl.url
+    sourceUrl: crawl.finalUrl || crawl.sourceUrl
   };
 
   return result;

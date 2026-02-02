@@ -1,6 +1,6 @@
 // services/buildSynthesisInput.ts
-import type { NormalizedProduct } from "./normalizeProduct.ts";
-import type { SynthesisInput } from "./synthesizeService.ts";
+import type { NormalizedProduct } from "./normalizeProduct.js";
+import type { SynthesisInput } from "./synthesizeService.js";
 
 /**
  * Adapter between normalization and synthesis.

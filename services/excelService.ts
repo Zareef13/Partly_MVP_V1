@@ -1,6 +1,6 @@
 
 import * as XLSX from 'xlsx';
-import { RawComponentData, EnrichedComponentData } from '../types';
+import { RawComponentData, EnrichedComponentData } from '../types.js';
 
 export const parseExcelFile = async (file: File): Promise<RawComponentData[]> => {
   return new Promise((resolve, reject) => {
