@@ -17,3 +17,9 @@ yarn-error.log*
 
 # Playwright / temp
 .playwright/
+
+venv/
+.venv/
+
+
+data/surgepure/pdf/
