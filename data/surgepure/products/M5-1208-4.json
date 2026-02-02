@@ -1,0 +1,119 @@
+{
+  "manufacturer": {
+    "name": "SurgePure",
+    "website": "https://www.surgepure.com",
+    "contact": {
+      "toll_free": "1.877.833.5440",
+      "email": "info@surgepure.com"
+    }
+  },
+
+  "identifiers": {
+    "mpn": "M5-1208-4",
+    "product_line": "Mach 5",
+    "product_family": "SPD System",
+    "column_position": 2
+  },
+
+  "classification": {
+    "category": "Surge Protective Device",
+    "protection_level": "Primary Level",
+    "spd_type": ["Type 1", "Type 2"],
+    "ieee_locations": ["Category C"],
+    "installation_location": "Primary service entrance",
+    "application_scope": "Industrial / Commercial applications up to 2000 kW"
+  },
+
+  "overview": {
+    "datasheet_title": "MACH 5 DATA SHEET",
+    "headline": "Primary level, two-stage surge protection for IEEE Category C locations",
+    "primary_marketing_paragraph": "From the main distribution panel it isolates your sensitive downline equipment from nearby switching motor loads and in-house surges to provide a complete grid of non-degrading surge protection. SurgePure always preserves your assets and maximizes your long-term reliability and profits!",
+    "technical_summary": "The SurgePure Mach 5 SPD System is a primary level, two-stage, ‘Dual-Mode’ surge protection device located at your service entrance. It is engineered for severe surge environments and high-energy industrial and commercial electrical systems."
+  },
+
+  "key_features": [
+    "Your most vital primary level defense against today’s rolling blackouts and brownouts!",
+    "Unique ‘Dual-Mode’ fuse-links maintain safety of non-degrading surge capacity.",
+    "Designed for easy mounting and installation for ‘fast response-time’ protection.",
+    "Up to one million amps of two-stage, single-element parallel surge protection!",
+    "Unique safety ‘Surge Cushion’ technology is key to eliminating ‘Electrical Pollution’!"
+  ],
+
+  "electrical_specs": {
+    "ac_service_type": "3Ø WYE",
+    "nominal_ac_line_voltage_vrms": "120/208",
+    "frequency_hz": "50/60",
+    "protection_element_type": "Single Element (SE*)",
+    "protection_architecture": "Two-stage, Dual-Mode",
+    "protection_modes": ["L-N", "L-L", "N-G"],
+
+    "vpr_rating": {
+      "standard": "UL 1449, 5th Edition",
+      "test_current": "20kA",
+      "l_n": 700,
+      "l_l": 1000
+    },
+
+    "max_surge_current_per_mode_ka": "80/350",
+    "total_surge_capacity_ka": 1000,
+    "mcov_v": "150/320",
+
+    "clamping_voltage_v": {
+      "l_l": 520,
+      "l_n": 390,
+      "n_g": 390
+    }
+  },
+
+  "mechanical_specs": {
+    "leads": {
+      "description": "36” #8 AWG stranded copper",
+      "configuration": "4+G"
+    },
+    "enclosure": {
+      "rating": "NEMA 4X",
+      "environment": ["Indoor", "Outdoor"],
+      "protection": ["Dust", "Drip", "Hosedown", "Corrosion"],
+      "dimensions": {
+        "height": "10.5 in",
+        "width": "8.5 in",
+        "depth": "6.25 in",
+        "mounting_knockout": "0.75 in"
+      }
+    },
+    "shipping_weight_lbs": 24
+  },
+
+  "safety_and_compliance": {
+    "sccr": "200kAIC",
+    "safety_rating_statement": "Safety rated as SPD Type 1 & Type 2 with the TVSS industry’s highest safety SCCR rating of 200kAIC",
+    "overcurrent_protection": "Type 1 & Type 2, no breaker required / for fast easy panel installations, use 40 amp breaker - CODE RULE 26-420",
+    "certifications": [
+      "c-ETL-us",
+      "UL 1449, 5th Edition",
+      "CSA C22.2 No. 269",
+      "ANSI/IEEE C62.11",
+      "ANSI/IEEE C62.41",
+      "ANSI/IEEE C62.45",
+      "RoHS Compliant"
+    ]
+  },
+
+  "status_and_options": {
+    "status_indicators": "Lifetime Green LED Self Test ‘Protection Status Monitors’ For Each Phase",
+    "optional_features": [
+      "Remote Aware (Opt.) provides auto-remote ‘Protection Status Alert’"
+    ]
+  },
+
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M5-1208-4.pdf"
+  },
+
+  "source": {
+    "document": "SurgePure Mach 5 Datasheet",
+    "revision_date": "2024-02-20",
+    "extraction_scope": "Second model column only (M5-1208-4)",
+    "notes": "Three-phase WYE configuration with two-stage Dual-Mode protection"
+  }
+}

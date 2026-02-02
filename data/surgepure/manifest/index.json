@@ -1,0 +1,555 @@
+[
+  {
+    "mpn": "M1-120-2",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_505ec3b165db4529b4fdcebb2a24b8db.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png/v1/fill/w_315,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M1-120-2.pdf",
+    "imagePath": "data/surgepure/images/M1-120-2.png"
+  },
+  {
+    "mpn": "M1-1120-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_505ec3b165db4529b4fdcebb2a24b8db.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png/v1/fill/w_315,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M1-1120-3.pdf",
+    "imagePath": "data/surgepure/images/M1-1120-3.png"
+  },
+  {
+    "mpn": "M1-1208-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_505ec3b165db4529b4fdcebb2a24b8db.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png/v1/fill/w_315,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M1-1208-4.pdf",
+    "imagePath": "data/surgepure/images/M1-1208-4.png"
+  },
+  {
+    "mpn": "M1-1240-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_505ec3b165db4529b4fdcebb2a24b8db.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png/v1/fill/w_315,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M1-1240-3.pdf",
+    "imagePath": "data/surgepure/images/M1-1240-3.png"
+  },
+  {
+    "mpn": "M1-1240-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_505ec3b165db4529b4fdcebb2a24b8db.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png/v1/fill/w_315,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M1-1240-4.pdf",
+    "imagePath": "data/surgepure/images/M1-1240-4.png"
+  },
+  {
+    "mpn": "M1-1480-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_505ec3b165db4529b4fdcebb2a24b8db.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png/v1/fill/w_315,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M1-1480-3.pdf",
+    "imagePath": "data/surgepure/images/M1-1480-3.png"
+  },
+  {
+    "mpn": "M1-1480-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_505ec3b165db4529b4fdcebb2a24b8db.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png/v1/fill/w_315,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_b7a4248471bd49c8ad71f8c036f4db2d~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M1-1480-4.pdf",
+    "imagePath": "data/surgepure/images/M1-1480-4.png"
+  },
+  {
+    "mpn": "M2-1120-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1120-3.pdf",
+    "imagePath": "data/surgepure/images/M2-1120-3.png"
+  },
+  {
+    "mpn": "M2-1120-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1120-3RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1120-3RA.png"
+  },
+  {
+    "mpn": "M2-1208-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1208-4.pdf",
+    "imagePath": "data/surgepure/images/M2-1208-4.png"
+  },
+  {
+    "mpn": "M2-1208-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1208-4RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1208-4RA.png"
+  },
+  {
+    "mpn": "M2-1240-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1240-3.pdf",
+    "imagePath": "data/surgepure/images/M2-1240-3.png"
+  },
+  {
+    "mpn": "M2-1240-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1240-3RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1240-3RA.png"
+  },
+  {
+    "mpn": "M2-1240-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1240-4.pdf",
+    "imagePath": "data/surgepure/images/M2-1240-4.png"
+  },
+  {
+    "mpn": "M2-1240-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1240-4RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1240-4RA.png"
+  },
+  {
+    "mpn": "M2-1480-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1480-3.pdf",
+    "imagePath": "data/surgepure/images/M2-1480-3.png"
+  },
+  {
+    "mpn": "M2-1480-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1480-3RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1480-3RA.png"
+  },
+  {
+    "mpn": "M2-1480-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1480-4.pdf",
+    "imagePath": "data/surgepure/images/M2-1480-4.png"
+  },
+  {
+    "mpn": "M2-1480-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1480-4RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1480-4RA.png"
+  },
+  {
+    "mpn": "M2-1600-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1600-3.pdf",
+    "imagePath": "data/surgepure/images/M2-1600-3.png"
+  },
+  {
+    "mpn": "M2-1600-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1600-3RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1600-3RA.png"
+  },
+  {
+    "mpn": "M2-1600-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1600-4.pdf",
+    "imagePath": "data/surgepure/images/M2-1600-4.png"
+  },
+  {
+    "mpn": "M2-1600-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_4efbc8735b37482680c16ea1608cd535.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png/v1/fill/w_286,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_057e72d3e56e42c7889cba22150f8556~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M2-1600-4RA.pdf",
+    "imagePath": "data/surgepure/images/M2-1600-4RA.png"
+  },
+  {
+    "mpn": "M3-1120-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1120-3.pdf",
+    "imagePath": "data/surgepure/images/M3-1120-3.jpg"
+  },
+  {
+    "mpn": "M3-1120-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1120-3RA.pdf",
+    "imagePath": "data/surgepure/images/M3-1120-3RA.jpg"
+  },
+  {
+    "mpn": "M3-1208-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1208-4.pdf",
+    "imagePath": "data/surgepure/images/M3-1208-4.jpg"
+  },
+  {
+    "mpn": "M3-1208-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1208-4RA.pdf",
+    "imagePath": "data/surgepure/images/M3-1208-4RA.jpg"
+  },
+  {
+    "mpn": "M3-1240-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1240-4.pdf",
+    "imagePath": "data/surgepure/images/M3-1240-4.jpg"
+  },
+  {
+    "mpn": "M3-1240-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1240-4RA.pdf",
+    "imagePath": "data/surgepure/images/M3-1240-4RA.jpg"
+  },
+  {
+    "mpn": "M3-1480-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1480-4.pdf",
+    "imagePath": "data/surgepure/images/M3-1480-4.jpg"
+  },
+  {
+    "mpn": "M3-1480-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_33c48ee74dd04329866167bd4725efb7.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_1654fc7e317d4d87988fc0f8dd7318df~mv2.jpg/v1/fill/w_400,h_632,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%203_single_ph%20_model.jpg",
+    "pdfPath": "data/surgepure/pdfs/M3-1480-4RA.pdf",
+    "imagePath": "data/surgepure/images/M3-1480-4RA.jpg"
+  },
+  {
+    "mpn": "M4-1120-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1120-3.pdf",
+    "imagePath": "data/surgepure/images/M4-1120-3.png"
+  },
+  {
+    "mpn": "M4-1120-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1120-3RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1120-3RA.png"
+  },
+  {
+    "mpn": "M4-1208-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1208-4.pdf",
+    "imagePath": "data/surgepure/images/M4-1208-4.png"
+  },
+  {
+    "mpn": "M4-1208-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1208-4RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1208-4RA.png"
+  },
+  {
+    "mpn": "M4-1240-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1240-3.pdf",
+    "imagePath": "data/surgepure/images/M4-1240-3.png"
+  },
+  {
+    "mpn": "M4-1240-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1240-3RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1240-3RA.png"
+  },
+  {
+    "mpn": "M4-1240-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1240-4.pdf",
+    "imagePath": "data/surgepure/images/M4-1240-4.png"
+  },
+  {
+    "mpn": "M4-1240-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1240-4RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1240-4RA.png"
+  },
+  {
+    "mpn": "M4-1480-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1480-3.pdf",
+    "imagePath": "data/surgepure/images/M4-1480-3.png"
+  },
+  {
+    "mpn": "M4-1480-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1480-3RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1480-3RA.png"
+  },
+  {
+    "mpn": "M4-1480-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1480-4.pdf",
+    "imagePath": "data/surgepure/images/M4-1480-4.png"
+  },
+  {
+    "mpn": "M4-1480-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1480-4RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1480-4RA.png"
+  },
+  {
+    "mpn": "M4-1600-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1600-3.pdf",
+    "imagePath": "data/surgepure/images/M4-1600-3.png"
+  },
+  {
+    "mpn": "M4-1600-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1600-3RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1600-3RA.png"
+  },
+  {
+    "mpn": "M4-1600-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1600-4.pdf",
+    "imagePath": "data/surgepure/images/M4-1600-4.png"
+  },
+  {
+    "mpn": "M4-1600-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_043f138ad818405f9e1b872f4abdd195.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png/v1/fill/w_380,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/866c55_bece942af92f40f18d972e8b38f1da79~mv2.png",
+    "pdfPath": "data/surgepure/pdfs/M4-1600-4RA.pdf",
+    "imagePath": "data/surgepure/images/M4-1600-4RA.png"
+  },
+  {
+    "mpn": "M5-1120-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1120-3.pdf",
+    "imagePath": "data/surgepure/images/M5-1120-3.jpg"
+  },
+  {
+    "mpn": "M5-1120-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1120-3RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1120-3RA.jpg"
+  },
+  {
+    "mpn": "M5-1208-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1208-4.pdf",
+    "imagePath": "data/surgepure/images/M5-1208-4.jpg"
+  },
+  {
+    "mpn": "M5-1208-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1208-4RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1208-4RA.jpg"
+  },
+  {
+    "mpn": "M5-1240-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1240-3.pdf",
+    "imagePath": "data/surgepure/images/M5-1240-3.jpg"
+  },
+  {
+    "mpn": "M5-1240-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1240-3RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1240-3RA.jpg"
+  },
+  {
+    "mpn": "M5-1240-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1240-4.pdf",
+    "imagePath": "data/surgepure/images/M5-1240-4.jpg"
+  },
+  {
+    "mpn": "M5-1240-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1240-4RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1240-4RA.jpg"
+  },
+  {
+    "mpn": "M5-1480-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1480-3.pdf",
+    "imagePath": "data/surgepure/images/M5-1480-3.jpg"
+  },
+  {
+    "mpn": "M5-1480-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1480-3RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1480-3RA.jpg"
+  },
+  {
+    "mpn": "M5-1480-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1480-4.pdf",
+    "imagePath": "data/surgepure/images/M5-1480-4.jpg"
+  },
+  {
+    "mpn": "M5-1480-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1480-4RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1480-4RA.jpg"
+  },
+  {
+    "mpn": "M5-1600-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1600-3.pdf",
+    "imagePath": "data/surgepure/images/M5-1600-3.jpg"
+  },
+  {
+    "mpn": "M5-1600-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1600-3RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1600-3RA.jpg"
+  },
+  {
+    "mpn": "M5-1600-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1600-4.pdf",
+    "imagePath": "data/surgepure/images/M5-1600-4.jpg"
+  },
+  {
+    "mpn": "M5-1600-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_7963cd3063b24cdab3fe47c0cc09d480.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_2bb4cfd91ea94b98bf1feb1ff2a11e93~mv2.jpg/v1/fill/w_493,h_735,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%205.jpg",
+    "pdfPath": "data/surgepure/pdfs/M5-1600-4RA.pdf",
+    "imagePath": "data/surgepure/images/M5-1600-4RA.jpg"
+  },
+  {
+    "mpn": "M6-1120-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1120-3.pdf",
+    "imagePath": "data/surgepure/images/M6-1120-3.jpg"
+  },
+  {
+    "mpn": "M6-1120-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1120-3RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1120-3RA.jpg"
+  },
+  {
+    "mpn": "M6-1208-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1208-4.pdf",
+    "imagePath": "data/surgepure/images/M6-1208-4.jpg"
+  },
+  {
+    "mpn": "M6-1208-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1208-4RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1208-4RA.jpg"
+  },
+  {
+    "mpn": "M6-1240-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1240-3.pdf",
+    "imagePath": "data/surgepure/images/M6-1240-3.jpg"
+  },
+  {
+    "mpn": "M6-1240-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1240-3RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1240-3RA.jpg"
+  },
+  {
+    "mpn": "M6-1240-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1240-4.pdf",
+    "imagePath": "data/surgepure/images/M6-1240-4.jpg"
+  },
+  {
+    "mpn": "M6-1240-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1240-4RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1240-4RA.jpg"
+  },
+  {
+    "mpn": "M6-1480-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1480-3.pdf",
+    "imagePath": "data/surgepure/images/M6-1480-3.jpg"
+  },
+  {
+    "mpn": "M6-1480-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1480-3RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1480-3RA.jpg"
+  },
+  {
+    "mpn": "M6-1480-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1480-4.pdf",
+    "imagePath": "data/surgepure/images/M6-1480-4.jpg"
+  },
+  {
+    "mpn": "M6-1480-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1480-4RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1480-4RA.jpg"
+  },
+  {
+    "mpn": "M6-1600-3",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1600-3.pdf",
+    "imagePath": "data/surgepure/images/M6-1600-3.jpg"
+  },
+  {
+    "mpn": "M6-1600-3RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1600-3RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1600-3RA.jpg"
+  },
+  {
+    "mpn": "M6-1600-4",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1600-4.pdf",
+    "imagePath": "data/surgepure/images/M6-1600-4.jpg"
+  },
+  {
+    "mpn": "M6-1600-4RA",
+    "datasheetUrl": "https://www.surgepure.com/_files/ugd/866c55_45b12ba86ad44cf7a1d8c5b01be34585.pdf",
+    "imageUrl": "https://static.wixstatic.com/media/866c55_294da6c622474346966e4ddfe92d31fa~mv2.jpg/v1/fill/w_565,h_809,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Mach%206.jpg",
+    "pdfPath": "data/surgepure/pdfs/M6-1600-4RA.pdf",
+    "imagePath": "data/surgepure/images/M6-1600-4RA.jpg"
+  }
+]

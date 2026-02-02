@@ -1,0 +1,178 @@
+{
+  "manufacturer": {
+    "name": "SurgePure",
+    "brand_family": "SurgePure SPD Systems",
+    "website": "https://www.surgepure.com",
+    "contact": {
+      "toll_free": "1.877.833.5440",
+      "email": "info@surgepure.com"
+    }
+  },
+
+  "identifiers": {
+    "mpn": "M6-1240-3",
+    "series": "Mach 6",
+    "product_family": "Surge Protective Device System",
+    "model_role": "Primary service entrance protection",
+    "column_position": 3,
+    "related_models": [
+      "M6-1120-3",
+      "M6-1208-4",
+      "M6-1240-3",
+      "M6-1240-4",
+      "M6-1480-3",
+      "M6-1480-4",
+      "M6-1600-3",
+      "M6-1600-4"
+    ]
+  },
+
+  "classification": {
+    "category": "Surge Protective Device (SPD)",
+    "protection_level": "Primary Level",
+    "spd_types": ["Type 1", "Type 2"],
+    "ieee_application_categories": ["Category C"],
+    "intended_installation_point": "Main service entrance / primary distribution panel",
+    "max_service_amps": 4000,
+    "electrical_environment": "High-energy industrial and commercial power systems"
+  },
+
+  "overview": {
+    "datasheet_title": "MACH 6 DATA SHEET",
+    "positioning_headline": "Primary level surge protection for severe IEEE Category C environments",
+    "surge_capacity_statement": "Surge Capacity 2 Million Amps",
+    "marketing_paragraphs": [
+      "From the main distribution panel it isolates your sensitive downline equipment from nearby switching motor loads and in-house surges to deliver a continuous grid of pure, non-degrading AC power.",
+      "SurgePure protects mission-critical infrastructure by eliminating electrical pollution, preserving assets, and maximizing long-term system reliability."
+    ],
+    "technical_positioning": "The Mach 6 SPD System is a primary level, two-stage, Quad-Mode surge protection system designed to handle extreme surge environments at service entrance locations."
+  },
+
+  "key_features": {
+    "feature_set_title": "Mach 6 Key Features",
+    "bulleted_features": [
+      "Your most vital primary level defense against today’s rolling blackouts and brownouts",
+      "Quad-Mode fuse-link architecture maintains safety of high-energy, non-degrading surge capacity",
+      "Engineered for easy mounting and installation with ultra-fast response time protection",
+      "Up to two million amps of two-stage, single-element parallel surge protection",
+      "Exclusive Surge Cushion technology reduces electrical noise and voltage stress on equipment"
+    ]
+  },
+
+  "electrical_specs": {
+    "power_configuration": {
+      "ac_service_type": "3Ø Delta",
+      "nominal_line_voltage_vrms": "240",
+      "frequency_hz": "50/60"
+    },
+
+    "surge_protection_design": {
+      "element_type": "Single Element (SE*)",
+      "architecture": "Two-stage Quad-Mode",
+      "protection_modes": ["L-L", "L-G"],
+      "non_degrading_design": true
+    },
+
+    "performance_ratings": {
+      "max_surge_current_per_mode_ka": "80/640",
+      "total_surge_capacity_ka": 1400,
+      "mcov_v": "320"
+    },
+
+    "voltage_protection_ratings": {
+      "vpr_rating": {
+        "standard": "UL 1449, 5th Edition",
+        "test_current": "20kA",
+        "line_to_line_v": 520,
+        "line_to_neutral_v": null,
+        "neutral_to_ground_v": null
+      },
+      "clamping_voltages": {
+        "l_l_v": 520,
+        "l_n_v": null,
+        "n_g_v": null
+      }
+    }
+  },
+
+  "mechanical_specs": {
+    "conductors": {
+      "lead_length": "36 inches",
+      "wire_gauge": "#6 AWG",
+      "material": "Stranded copper",
+      "configuration": "3+G"
+    },
+
+    "enclosure": {
+      "nema_rating": "NEMA 4X",
+      "intended_use": ["Indoor", "Outdoor"],
+      "environmental_protection": [
+        "Dust",
+        "Drip",
+        "Hosedown",
+        "Corrosion resistant"
+      ],
+      "physical_dimensions": {
+        "height_in": 14.5,
+        "width_in": 12.5,
+        "depth_in": 8.25,
+        "mounting_knockout_in": 0.75
+      }
+    },
+
+    "shipping": {
+      "weight_lbs": 48
+    }
+  },
+
+  "safety_and_compliance": {
+    "short_circuit_current_rating": "200kAIC",
+    "safety_claims": [
+      "Safety rated as SPD Type 1 & Type 2",
+      "TVSS industry’s highest SCCR rating of 200kAIC"
+    ],
+    "overcurrent_protection_guidance": {
+      "type": "Type 1 & Type 2",
+      "breaker_requirement": "No breaker required",
+      "optional_breaker": "60A breaker for fast panel installations",
+      "code_reference": "CODE RULE 26-420"
+    },
+    "certifications": {
+      "etl": "c-ETL-us Listed",
+      "ul": "UL 1449, 5th Edition",
+      "csa": "CSA C22.2 No. 269",
+      "ieee": [
+        "ANSI/IEEE C62.11",
+        "ANSI/IEEE C62.41",
+        "ANSI/IEEE C62.45"
+      ],
+      "environmental": "RoHS Compliant"
+    }
+  },
+
+  "monitoring_and_options": {
+    "status_indicators": {
+      "type": "LED",
+      "description": "Lifetime green LED self-test protection status monitors for each phase",
+      "monitoring_scope": "Per-phase surge health monitoring"
+    },
+    "optional_features": [
+      {
+        "name": "Remote Aware",
+        "description": "Automatic remote protection status alert capability"
+      }
+    ]
+  },
+
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M6-1240-3.pdf",
+    "product_images": []
+  },
+
+  "source_metadata": {
+    "document_name": "SurgePure Mach 6 Datasheet",
+    "revision_date": "2024-02-20",
+    "extraction_scope": "Third column only – M6-1240-3",
+    "confidence": "Very High (column-isolated extraction)"
+  }
+}

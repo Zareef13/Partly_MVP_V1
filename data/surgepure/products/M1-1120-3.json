@@ -1,0 +1,139 @@
+{
+  "manufacturer": {
+    "name": "SurgePure",
+    "website": "https://www.surgepure.com"
+  },
+  "identifiers": {
+    "mpn": "M1-1120-3",
+    "product_line": "Mach 1",
+    "product_family": "SPD System",
+    "model_group": [
+      "M1-1120-3",
+      "M1-1208-4",
+      "M1-1240-3",
+      "M1-1240-4",
+      "M1-1480-3",
+      "M1-1480-4"
+    ]
+  },
+  "classification": {
+    "category": "Surge Protective Device",
+    "sub_category": "Secondary Level SPD",
+    "spd_type": ["Type 1", "Type 2"],
+    "ieee_location": "Category B",
+    "application_level": "Secondary / Sub-Distribution",
+    "panel_rating_context": "For panels up to 200 amps (datasheet positioning)"
+  },
+  "overview": {
+    "short": "Basic secondary level surge protection for IEEE Category B sub-panels up to 200 amps.",
+    "long": "The SurgePure Mach 1 SPD System provides secondary level, multi-element surge protection for electrical sub-distribution panels. Designed for IEEE Category B locations, it isolates sensitive downstream equipment from nearby switching motor loads and in-house surges when installed downstream from primary level protection, helping preserve assets and support long-term system reliability."
+  },
+  "document_context": {
+    "datasheet_title": "MACH 1 DATA SHEET",
+    "positioning_headlines": [
+      "For IEEE Category B Sub-Panels / Secondary Locations",
+      "Basic Secondary Level Protection For Panels Up To 200 Amps",
+      "When Downline from Primary Level Protection"
+    ],
+    "marketing_paragraphs": [
+      "It isolates your sensitive downline equipment from nearby switching motor loads and in-house surges to compliment your upline grid of non-degrading SurgePures. It preserves your assets and maximizes your long-term profits!",
+      "The Mach 1 SPD System is secondary level of multi-element surge protection to be located at your sub-distribution Panels."
+    ],
+    "contact_block": {
+      "website": "www.surgepure.com",
+      "toll_free": "1.877.833.5440",
+      "email": "info@surgepure.com"
+    }
+  },
+  "key_features": [
+    "Safe 240,000 amps of multi-element surge capacity for secondary level protection.",
+    "Unique fuse-links maintain safety of nearby equipment during catastrophic failure.",
+    "Designed for easy mounting and installation for 'close-coupled' surge protection.",
+    "Provides reliable, cost-effective component level isolation as part of protection grid.",
+    "Integral grid of primary and secondary levels of non-degrading SPD technology provides long-term 24/7 AC power system integrity."
+  ],
+  "safety_ratings_and_claims": {
+    "type_rating_claim": "Safety rated as SPD Type 1 & Type 2",
+    "sccr_claim": "Industries highest safety SCCR rating of 200kAIC (datasheet claim)",
+    "additional_claims": [
+      "(ME*) Multi Element for each surgepath.",
+      "Mach 1 provides reliable secondary level protection when downline from primary level SurgePures."
+    ],
+    "listing_block": [
+      "Listed and Certified",
+      "UL 1449, 5th Edition",
+      "CSA - C22.2 No. 269",
+      "For Type 1 & Type 2 Locations",
+      "All models SCCR - 200kAIC"
+    ]
+  },
+  "electrical_specs": {
+    "ac_service_type": "1Ø",
+    "nominal_ac_line_voltage_vrms": "120/240",
+    "frequency_hz": "50/60",
+    "protection_modes": ["L-N", "L-L", "N-G"],
+    "max_surge_current_per_mode_ka": "40/80",
+    "total_surge_capacity_ka": 120,
+    "mcov_v": "140/320",
+    "vpr_rating": {
+      "standard": "UL 1449, 5th Edition",
+      "test_current": "20kA",
+      "l_n": 900,
+      "l_l": 1800,
+      "raw_cell": "900/1800"
+    },
+    "clamping_voltage_v": {
+      "l_l": 520,
+      "l_n": 390,
+      "n_g": 390
+    }
+  },
+  "mechanical_specs": {
+    "leads": {
+      "description": "36” #14 AWG Stranded Copper",
+      "configuration": "3+G"
+    },
+    "enclosure": {
+      "rating": "NEMA 12",
+      "environment": "Indoor",
+      "protection": ["Dust", "Drip", "Light Splashing"],
+      "dimensions": {
+        "height": "4.5 in",
+        "width": "4.5 in",
+        "depth": "2.75 in",
+        "mounting_knockout": "0.75 in"
+      }
+    },
+    "shipping_weight_lbs": 3.2
+  },
+  "safety_and_compliance": {
+    "sccr": "200kAIC",
+    "overcurrent_protection": "Type 2 only, use 15 amp breaker – CODE RULE 26-420",
+    "certifications_and_standards": [
+      "c-ETL-us Listed",
+      "UL 1449, 5th Edition",
+      "CSA C22.2 No. 269",
+      "ANSI/IEEE C62.11",
+      "ANSI/IEEE C62.41",
+      "ANSI/IEEE C62.45",
+      "RoHS Compliant"
+    ],
+    "logo_mentions": ["ANSI", "NEMA", "RoHS", "IEEE", "NFPA"]
+  },
+  "status_indicators": {
+    "type": "LED",
+    "description": "Lifetime green LED self-test protection status monitors for each phase"
+  },
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M1-1120-3.pdf",
+    "product_image": "data/surgepure/images/M1-1120-3.jpg"
+  },
+  "provenance": {
+    "source_pdf_type": "multi-model datasheet",
+    "mpn_column_binding": "Values in electrical_specs/mechanical_specs pulled from the M1-1120-3 column in the spec table. Marketing/context text applies to the Mach 1 datasheet as a whole and is stored under document_context.",
+    "extraction_notes": [
+      "Use document_context + key_features + safety_ratings_and_claims for downstream synthesis and copy generation.",
+      "Use electrical_specs/mechanical_specs/safety_and_compliance for normalization and spec tables."
+    ]
+  }
+}

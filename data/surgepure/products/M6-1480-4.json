@@ -1,0 +1,110 @@
+{
+  "manufacturer": {
+    "name": "SurgePure",
+    "website": "https://www.surgepure.com",
+    "contact": {
+      "toll_free": "1.877.833.5440",
+      "email": "info@surgepure.com"
+    }
+  },
+
+  "identifiers": {
+    "mpn": "M6-1480-4",
+    "series": "Mach 6",
+    "product_family": "Surge Protective Device System",
+    "column_position": 6
+  },
+
+  "classification": {
+    "category": "Surge Protective Device (SPD)",
+    "protection_level_raw": "Primary Level",
+    "spd_type_raw": "Type 1 & Type 2",
+    "ieee_location_raw": "Category C",
+    "installation_location_raw": "Service Entrance"
+  },
+
+  "overview": {
+    "datasheet_title_raw": "MACH 6 DATA SHEET",
+    "headline_raw": "Primary Level Surge Protection",
+    "marketing_text_raw": [
+      "From the main distribution panel it isolates your sensitive downline equipment from nearby switching motor loads and in-house surges.",
+      "It preserves your assets and maximizes your long-term profits!"
+    ],
+    "system_description_raw": "The Mach 6 SPD System is a primary level of multi-element surge protection to be located at the service entrance."
+  },
+
+  "key_features": {
+    "raw_bullets": [
+      "Your most vital primary level defense against today’s rolling blackouts and brownouts!",
+      "Designed for easy mounting and installation for fast response-time protection.",
+      "Integral grid of primary & secondary levels of non-degrading SPD technology provides long-term 24/7 AC power system integrity."
+    ]
+  },
+
+  "electrical_specs": {
+    "ac_service_type_raw": "3Ø Delta",
+    "nominal_ac_line_voltage_vrms_raw": "480",
+    "frequency_range_raw": "50/60 Hz",
+
+    "protection_element_type_raw": "Single Element (SE*)",
+    "protection_modes_raw": "L-L",
+
+    "max_me_surge_current_per_mode_raw": "80/640 kA",
+    "total_surge_capacity_raw": "1400 kA @ 8x20 μsec pulse",
+
+    "mcov_raw": "550",
+
+    "vpr_rating_raw": "UL 1449, 5th Edition L-L @ 20kA",
+
+    "clamping_voltages_raw": {
+      "l_l": "1175",
+      "l_n": "N/A",
+      "n_g": "N/A"
+    }
+  },
+
+  "mechanical_specs": {
+    "leads_raw": "36” stranded copper",
+    "lead_configuration_raw": "3+G",
+
+    "enclosure_raw": {
+      "rating": "NEMA 4X",
+      "environment_raw": ["Indoor", "Outdoor"]
+    },
+
+    "shipping_weight_lbs_raw": "58",
+    "shipping_weight_column_index": 6,
+    "shipping_weight_source": "Datasheet row: Shipping Weight LBS (Approx.)"
+  },
+
+  "safety_and_compliance": {
+    "sccr_raw": "200kAIC",
+    "safety_statement_raw": "Safety rated as SPD Type 1 & Type 2 with the TVSS industry’s highest safety SCCR rating of 200kAIC",
+
+    "overcurrent_protection_raw": "Type 1 & Type 2, use breaker per CODE RULE 26-420",
+
+    "certifications_raw": [
+      "c-ETL-us",
+      "UL 1449, 5th Edition",
+      "CSA C22.2 No. 269",
+      "ANSI/IEEE C62.11",
+      "ANSI/IEEE C62.41",
+      "ANSI/IEEE C62.45",
+      "RoHS Compliant"
+    ]
+  },
+
+  "monitoring_and_status": {
+    "status_indicators_raw": "Lifetime Green LED Self Test Protection Status Monitors for Each Phase"
+  },
+
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M6-1480-4.pdf"
+  },
+
+  "source_metadata": {
+    "extraction_scope": "Sixth column only – zero inference",
+    "confidence": "Very High (verbatim column extraction)",
+    "notes": "All numeric values copied directly; no normalization or reconciliation performed"
+  }
+}

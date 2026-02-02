@@ -1,0 +1,178 @@
+{
+  "manufacturer": {
+    "name": "SurgePure",
+    "brand_family": "SurgePure SPD Systems",
+    "website": "https://www.surgepure.com",
+    "contact": {
+      "toll_free": "1.877.833.5440",
+      "email": "info@surgepure.com"
+    }
+  },
+
+  "identifiers": {
+    "mpn": "M5-1600-3",
+    "series": "Mach 5",
+    "product_family": "Surge Protective Device System",
+    "model_role": "Primary service entrance protection",
+    "column_position": 7,
+    "related_models": [
+      "M5-1120-3",
+      "M5-1208-4",
+      "M5-1240-3",
+      "M5-1240-4",
+      "M5-1480-3",
+      "M5-1480-4",
+      "M5-1600-3",
+      "M5-1600-4"
+    ]
+  },
+
+  "classification": {
+    "category": "Surge Protective Device (SPD)",
+    "protection_level": "Primary Level",
+    "spd_types": ["Type 1", "Type 2"],
+    "ieee_application_categories": ["Category C"],
+    "intended_installation_point": "Main service entrance / primary distribution panel",
+    "electrical_environment": "Very high fault-current industrial power systems"
+  },
+
+  "overview": {
+    "datasheet_title": "MACH 5 DATA SHEET",
+    "positioning_headline": "Extreme-duty primary surge protection for large-capacity electrical services",
+    "marketing_paragraphs": [
+      "From the main service entrance, the Mach 5 SPD System isolates sensitive downstream equipment from severe utility disturbances, lightning-induced surges, and internally generated electrical transients.",
+      "The system also isolates downstream distribution panels from internally generated surges, creating a complete, coordinated grid of non-degrading surge protection across the entire electrical infrastructure.",
+      "Mach 5 products are specifically engineered for large industrial facilities where extreme surge exposure, high fault currents, and mission-critical uptime requirements are present."
+    ],
+    "technical_positioning": "The SurgePure Mach 5 SPD System is a primary level, two-stage, Dual-Mode surge protective device utilizing non-degrading Single Element (SE*) technology and designed for very large electrical services."
+  },
+
+  "key_features": {
+    "feature_set_title": "Mach 5 Key Features",
+    "bulleted_features": [
+      "Your most vital primary level defense against today’s rolling blackouts and brownouts",
+      "Two-stage, Dual-Mode surge protection architecture for extreme energy dissipation",
+      "Unique Dual-Mode fuse-links maintain safety of very high-energy, non-degrading surge capacity",
+      "Designed for close-coupled installation delivering fast response-time protection",
+      "Up to one million amps of solid, safe, single-element parallel surge protection",
+      "Surge Cushion technology reduces electrical noise, harmonics, and power pollution"
+    ]
+  },
+
+  "electrical_specs": {
+    "power_configuration": {
+      "ac_service_type": "3Ø",
+      "nominal_line_voltage_vrms": "600",
+      "frequency_hz": "50/60"
+    },
+
+    "surge_protection_design": {
+      "element_type": "Single Element (SE*)",
+      "architecture": "Two-stage, Dual-Mode",
+      "protection_modes": ["L-L", "L-G"],
+      "non_degrading_design": true
+    },
+
+    "performance_ratings": {
+      "max_surge_current_per_mode_ka": "80/350",
+      "total_surge_capacity_ka": 1000,
+      "mcov_v": "600"
+    },
+
+    "voltage_protection_ratings": {
+      "vpr_rating": {
+        "standard": "UL 1449, 5th Edition",
+        "test_current": "20kA",
+        "line_to_line_v": 2500,
+        "line_to_neutral_v": null,
+        "neutral_to_ground_v": null
+      },
+      "clamping_voltages": {
+        "l_l_v": 2500,
+        "l_n_v": null,
+        "n_g_v": null
+      }
+    }
+  },
+
+  "mechanical_specs": {
+    "conductors": {
+      "lead_length": "36 inches",
+      "wire_gauge": "#6 AWG",
+      "material": "Stranded copper",
+      "configuration": "3 conductors"
+    },
+
+    "enclosure": {
+      "nema_rating": "NEMA 4X",
+      "intended_use": ["Indoor", "Outdoor"],
+      "environmental_protection": [
+        "Dust",
+        "Drip",
+        "Hosedown",
+        "Corrosion resistant"
+      ],
+      "physical_dimensions": {
+        "height_in": 12.5,
+        "width_in": 10.5,
+        "depth_in": 6.75,
+        "mounting_knockout_in": 0.75
+      }
+    },
+
+    "shipping": {
+      "weight_lbs": 32.0
+    }
+  },
+
+  "safety_and_compliance": {
+    "short_circuit_current_rating": "200kAIC",
+    "safety_claims": [
+      "Safety rated as SPD Type 1 & Type 2",
+      "TVSS industry’s highest SCCR rating of 200kAIC"
+    ],
+    "overcurrent_protection_guidance": {
+      "type": "Type 1 & Type 2",
+      "breaker_requirement": "No breaker required",
+      "optional_breaker": "50A breaker for fast panel installations",
+      "code_reference": "CODE RULE 26-420"
+    },
+    "certifications": {
+      "etl": "c-ETL-us Listed",
+      "ul": "UL 1449, 5th Edition",
+      "csa": "CSA C22.2 No. 269",
+      "ieee": [
+        "ANSI/IEEE C62.11",
+        "ANSI/IEEE C62.41",
+        "ANSI/IEEE C62.45"
+      ],
+      "environmental": "RoHS Compliant"
+    }
+  },
+
+  "monitoring_and_options": {
+    "status_indicators": {
+      "type": "LED",
+      "description": "Lifetime green LED self-test protection status monitors",
+      "monitoring_scope": "Overall surge protection health"
+    },
+    "optional_features": [
+      {
+        "name": "Remote Aware",
+        "description": "Automatic remote alert when surge protection status changes"
+      }
+    ]
+  },
+
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M5-1600-3.pdf",
+    "product_images": []
+  },
+
+  "source_metadata": {
+    "document_name": "SurgePure Mach 5 Datasheet",
+    "revision_date": "2024-02-20",
+    "extraction_scope": "Single column only – M5-1600-3",
+    "confidence": "High (column-isolated extraction)"
+  }
+}

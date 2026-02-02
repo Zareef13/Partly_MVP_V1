@@ -1,0 +1,119 @@
+{
+  "manufacturer": {
+    "name": "SurgePure",
+    "website": "https://www.surgepure.com",
+    "contact": {
+      "toll_free": "1.877.833.5440",
+      "email": "info@surgepure.com"
+    }
+  },
+
+  "identifiers": {
+    "mpn": "M4-1480-4",
+    "product_line": "Mach 4",
+    "product_family": "SPD System",
+    "column_position": 6
+  },
+
+  "classification": {
+    "category": "Surge Protective Device",
+    "protection_level": "Primary Level",
+    "spd_type": ["Type 1", "Type 2"],
+    "ieee_locations": ["Category B", "Category C"],
+    "installation_location": "Primary service entrance / main distribution panel",
+    "max_service_amps": 800
+  },
+
+  "overview": {
+    "datasheet_title": "MACH 4 DATA SHEET",
+    "headline": "Primary Level Service Entrances up to 800 Amps",
+    "surge_capacity_statement": "Surge Capacity 500,000 Amps",
+    "primary_marketing_paragraph": "While it isolates your downline equipment from external utility and lightning hazards, it also isolates your sub-distribution panels from in-house surges to provide a lifetime grid of clean power and surge protection.",
+    "technical_summary": "The SurgePure Mach 4 SPD System is a primary level of non-degrading, SE* surge protection typically located at your main distribution panel and engineered for high-capacity WYE electrical systems."
+  },
+
+  "key_features": [
+    "Your most vital primary level defense against today’s rolling blackouts and brownouts!",
+    "Unique fuse-links maintain safety of high energy, non-degrading surge capacity.",
+    "Designed for easy installation for close-coupled, ‘fast response-time’ protection.",
+    "One half million amps of safe, solid, non-degrading, lifetime surge capacity!",
+    "Integral grid of primary & secondary levels of non-degrading SPD technology provides long-term 24/7 AC power system integrity."
+  ],
+
+  "electrical_specs": {
+    "ac_service_type": "3Ø WYE",
+    "nominal_ac_line_voltage_vrms": "277/480",
+    "frequency_hz": "50/60",
+    "protection_element_type": "Single Element (SE*)",
+    "protection_modes": ["L-N", "L-L", "N-G"],
+
+    "vpr_rating": {
+      "standard": "UL 1449, 5th Edition",
+      "test_current": "20kA",
+      "l_n": 900,
+      "l_l": 1800
+    },
+
+    "max_surge_current_per_mode_ka": "80/160",
+    "total_surge_capacity_ka": 500,
+    "mcov_v": "320/550",
+
+    "clamping_voltage_v": {
+      "l_l": 1175,
+      "l_n": 390,
+      "n_g": 390
+    }
+  },
+
+  "mechanical_specs": {
+    "leads": {
+      "description": "36” #10 AWG stranded copper",
+      "configuration": "4+G"
+    },
+    "enclosure": {
+      "rating": "NEMA 4X",
+      "environment": ["Indoor", "Outdoor"],
+      "protection": ["Dust", "Drip", "Hosedown", "Corrosion"],
+      "dimensions": {
+        "height": "8.5 in",
+        "width": "6.25 in",
+        "depth": "4.25 in",
+        "mounting_knockout": "0.75 in"
+      }
+    },
+    "shipping_weight_lbs": 9.6
+  },
+
+  "safety_and_compliance": {
+    "sccr": "200kAIC",
+    "safety_rating_statement": "Safety rated as SPD Type 1 & Type 2 with the TVSS industry’s highest safety SCCR rating of 200kAIC",
+    "overcurrent_protection": "Type 1 & Type 2, no breaker required / for fast easy panel installations, use 30 amp breaker - CODE RULE 26-420",
+    "certifications": [
+      "c-ETL-us",
+      "UL 1449, 5th Edition",
+      "CSA C22.2 No. 269",
+      "ANSI/IEEE C62.11",
+      "ANSI/IEEE C62.41",
+      "ANSI/IEEE C62.45",
+      "RoHS Compliant"
+    ]
+  },
+
+  "status_and_options": {
+    "status_indicators": "Lifetime Green LED Self Test ‘Protection Status Monitors’ For Each Phase",
+    "optional_features": [
+      "Remote Aware (Opt.) provides auto-remote ‘Protection Status Alert’"
+    ]
+  },
+
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M4-1480-4.pdf"
+  },
+
+  "source": {
+    "document": "SurgePure Mach 4 Datasheet",
+    "revision_date": "2024-02-20",
+    "extraction_scope": "Sixth model column only (M4-1480-4)",
+    "notes": "480Y/277V WYE configuration with full L-N, L-L, and N-G protection"
+  }
+}

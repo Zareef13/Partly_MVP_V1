@@ -1,0 +1,152 @@
+{
+  "manufacturer": {
+    "name": "SurgePure",
+    "website": "https://www.surgepure.com"
+  },
+
+  "identifiers": {
+    "mpn": "M3-1480-4",
+    "product_line": "Mach 3",
+    "product_family": "SPD System",
+    "model_group": [
+      "M3-1120-3",
+      "M3-1208-4",
+      "M3-1240-4",
+      "M3-1480-4"
+    ]
+  },
+
+  "classification": {
+    "category": "Surge Protective Device",
+    "protection_level": "Primary Level",
+    "spd_type": ["Type 1", "Type 2"],
+    "ieee_locations": ["Category B", "Category C"],
+    "installation_location": "Primary service entrance",
+    "intended_environments": [
+      "Mission-critical electrical systems",
+      "Digitally sensitive equipment"
+    ]
+  },
+
+  "overview": {
+    "datasheet_title": "MACH 3 DATA SHEET",
+    "headline": "Primary-level surge protection with Active Sinewave Tracking (AST)",
+    "positioning_statements": [
+      "For IEEE Category B & C Locations",
+      "Primary Level Service Entrances up to 400 Amps",
+      "Surge Capacity 350,000 Amps"
+    ],
+    "marketing_paragraphs": [
+      "The SurgePure Mach 3 SPD System is designed for your most digitally sensitive equipment featuring our ‘Active Sinewave Tracking’ (AST) filtering out low-level spike/noise for ultra pure-power.",
+      "Mach 3 isolates your most sensitive down-line equipment from nearby motor loads and in-house surges."
+    ],
+    "application_notes": [
+      "Mach 3 is geared for mission-critical environments such as computer rooms, jumbo-trons, hospital equipment, MRI’s, dentist offices.",
+      "Mach 3 must be kept at least 50 feet away from all VFD’s."
+    ]
+  },
+
+  "document_context": {
+    "contact_information": {
+      "website": "www.surgepure.com",
+      "toll_free": "1.877.833.5440",
+      "email": "info@surgepure.com"
+    },
+    "datasheet_reference": "SurgePure.Mach3Datasheet/20/02/24"
+  },
+
+  "key_features": [
+    "LED’s constantly monitor performance and protection status of each phase",
+    "Assures ultra-pure 'spec-grade' power integrity for mission critical operations",
+    "Unique fuse-links maintain safety of high energy, non-degrading surge capacity",
+    "Designed for easy mounting and installation for fast response-time protection",
+    "Up to 355,000 amps of single-element, non-degrading surge protection",
+    "Integral grid of primary and secondary levels of non-degrading SPD technology provides long-term 24/7 AC power system integrity",
+    "Unique safety 'Surge Cushion' technology is key to eliminating electrical pollution"
+  ],
+
+  "safety_ratings_and_claims": {
+    "type_rating": "SPD Type 1 & Type 2",
+    "sccr_rating": "200kAIC",
+    "safety_statement": "Safety rated as SPD Type 1 & Type 2 with the TVSS industries highest safety SCCR rating of 200kAIC",
+    "element_definition": "SE* indicates Single Element for each non-degrading surge-path",
+    "listing_statements": [
+      "Listed and Certified",
+      "UL 1449, 5th Edition",
+      "CSA C22.2 No. 269",
+      "For Type 1 & Type 2 Locations",
+      "All models SCCR - 200kAIC"
+    ]
+  },
+
+  "electrical_specs": {
+    "ac_service_type": "3Ø WYE",
+    "nominal_ac_line_voltage_vrms": "277/480",
+    "frequency_hz": "50/60",
+    "protection_element_type": "Single Element (SE*)",
+    "protection_modes": ["L-N", "L-L", "N-G"],
+    "vpr_rating": {
+      "standard": "UL 1449, 5th Edition",
+      "test_current": "20kA",
+      "l_n": 700,
+      "l_l": 1175,
+      "raw_cell": "700/1175"
+    },
+    "max_surge_current_per_mode_ka": "50/100",
+    "total_surge_capacity_ka": 355,
+    "mcov_v": "320/550",
+    "clamping_voltage_v": {
+      "l_l": 1175,
+      "l_n": 700,
+      "n_g": 700
+    }
+  },
+
+  "mechanical_specs": {
+    "leads": {
+      "description": "36” #12 AWG stranded copper",
+      "configuration": "4+G"
+    },
+    "enclosure": {
+      "rating": "NEMA 4X",
+      "environment": ["Indoor", "Outdoor"],
+      "protection": ["Dust", "Drip", "Hosedown", "Corrosion"],
+      "dimensions": {
+        "height": "8.5 in",
+        "width": "6.25 in",
+        "depth": "4.25 in",
+        "mounting_knockout": "0.75 in"
+      }
+    },
+    "shipping_weight_lbs": 8.1
+  },
+
+  "performance_and_filtering": {
+    "ast_technology": {
+      "name": "Active Sinewave Tracking (AST)",
+      "description": "Surge elimination with enhanced EMI/RFI filtering for ultra pure-power delivery",
+      "benefit": "Filters low-level spike and noise beyond standard surge diversion"
+    },
+    "surge_cushion_technology": {
+      "description": "Unique safety technology designed to eliminate electrical pollution"
+    }
+  },
+
+  "status_and_options": {
+    "status_indicators": "Lifetime green LED self-test protection status monitors for each phase",
+    "optional_features": [
+      "Remote Aware (Opt.) provides auto-remote ‘Protection Status Alert’"
+    ]
+  },
+
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M3-1480-4.pdf"
+  },
+
+  "source": {
+    "document": "SurgePure Mach 3 Datasheet",
+    "page": 1,
+    "extraction_scope": "Fourth model column (M3-1480-4)",
+    "confidence": "High — column-specific specs plus Mach 3–specific narrative and filtering technologies"
+  }
+}

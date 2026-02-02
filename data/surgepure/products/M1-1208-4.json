@@ -1,0 +1,58 @@
+{
+  "manufacturer": { "name": "SurgePure", "website": "https://www.surgepure.com" },
+  "identifiers": {
+    "mpn": "M1-1208-4",
+    "product_line": "Mach 1",
+    "product_family": "SPD System",
+    "model_group": [
+      "M1-1120-3","M1-1208-4","M1-1240-3","M1-1240-4","M1-1480-3","M1-1480-4"
+    ]
+  },
+  "classification": {
+    "category": "Surge Protective Device",
+    "sub_category": "Secondary Level SPD",
+    "spd_type": ["Type 1","Type 2"],
+    "ieee_location": "Category B",
+    "application_level": "Secondary / Sub-Distribution"
+  },
+  "overview": {
+    "short": "Secondary level surge protection for IEEE Category B sub-panels.",
+    "long": "The SurgePure Mach 1 SPD System provides secondary level, multi-element surge protection for sub-distribution panels, isolating sensitive downstream equipment from switching motor loads and in-house surges when installed downstream from primary protection."
+  },
+  "document_context": {
+    "marketing_paragraphs": [
+      "It isolates your sensitive downline equipment from nearby switching motor loads and in-house surges to compliment your upline grid of non-degrading SurgePures.",
+      "The Mach 1 SPD System is secondary level of multi-element surge protection to be located at your sub-distribution Panels."
+    ]
+  },
+  "key_features": [
+    "Safe 240,000 amps of multi-element surge capacity for secondary level protection.",
+    "Unique fuse-links maintain safety of nearby equipment during catastrophic failure.",
+    "Designed for easy mounting and close-coupled surge protection.",
+    "Cost-effective component level isolation as part of a protection grid.",
+    "Non-degrading SPD technology for long-term 24/7 AC system integrity."
+  ],
+  "electrical_specs": {
+    "ac_service_type": "3Ø WYE",
+    "nominal_ac_line_voltage_vrms": "120/208",
+    "frequency_hz": "50/60",
+    "protection_modes": ["L-N","L-L","N-G"],
+    "max_surge_current_per_mode_ka": "40/80",
+    "total_surge_capacity_ka": 240,
+    "mcov_v": "140/320",
+    "vpr_rating": { "l_n": 900, "l_l": 1800 },
+    "clamping_voltage_v": { "l_l": 520, "l_n": 390, "n_g": 390 }
+  },
+  "mechanical_specs": {
+    "leads": { "description": "36” #14 AWG Stranded Copper", "configuration": "4+G" },
+    "shipping_weight_lbs": 3.85
+  },
+  "safety_and_compliance": {
+    "sccr": "200kAIC",
+    "certifications": ["UL 1449 5th Ed","CSA C22.2 No. 269","ANSI/IEEE C62 Series"]
+  },
+  "assets": {
+    "datasheet_pdf": "data/surgepure/pdfs/M1-1208-4.pdf",
+    "product_image": "data/surgepure/images/M1-1208-4.jpg"
+  }
+}
