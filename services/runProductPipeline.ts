@@ -123,6 +123,7 @@ export async function runProductPipeline(input: {
     0.25 * synthesisConfidence;
 
   result.final = {
+    ...synthesis,
     usable: finalConfidence >= 0.65,
     confidence: Number(finalConfidence.toFixed(2)),
     images: extraction.images || [],
