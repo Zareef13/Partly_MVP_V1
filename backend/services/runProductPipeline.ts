@@ -89,18 +89,21 @@ export async function runProductPipeline(input: {
   }
 
   // 4. NORMALIZE
-  const normalized = normalizeProducts([
-    {
-      sourceType: "distributor",
-      confidence: extraction.qualityScore ?? 0,
+  const normalized = normalizeProducts(
+    [
+      {
+        sourceType: "distributor",
+        confidence: extraction.qualityScore ?? 0,
 
-      ...extraction,
+        ...extraction,
 
-      images: (extraction.images ?? []).map((img: string) => ({
-        url: img
-      }))
-    }
-  ]);
+        images: (extraction.images ?? []).map((img: string) => ({
+          url: img
+        }))
+      }
+    ],
+    { canonicalMpn }
+  );
 
   // 5. SYNTHESIZE
   const synthesisInput = buildSynthesisInput(normalized);
@@ -161,6 +164,40 @@ export async function runProductPipeline(input: {
     datasheets: extraction.datasheets || [],
     sourceUrl: crawl.finalUrl
   };
+
+  // 7. RA VARIANT INJECTION (non-breaking, post-synthesis)
+  if (isRAVariant && result.final?.usable) {
+    // Ensure display title reflects RA variant
+    result.final.displayTitle = canonicalMpn;
+
+    // Inject Remote Alarm into key features
+    result.final.keyFeatures = [
+      ...(result.final.keyFeatures ?? []),
+      "Remote Alarm: Yes"
+    ];
+
+    // Inject Remote Alarm into spec table
+    result.final.specTable = [
+      ...(result.final.specTable ?? []),
+      { name: "Remote Alarm", value: "Yes" }
+    ];
+
+    // Inject Remote Alarm into textual descriptions
+    const raLine =
+      " This RA variant includes a remote alarm feature for system monitoring and alerting.";
+
+    if (result.final.overview) {
+      result.final.overview += raLine;
+    }
+
+    if (result.final.shortDescription) {
+      result.final.shortDescription += raLine;
+    }
+
+    if (result.final.longDescription) {
+      result.final.longDescription += raLine;
+    }
+  }
 
   return result;
 }

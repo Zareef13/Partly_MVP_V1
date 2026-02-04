@@ -69,7 +69,8 @@ export interface NormalizedProduct {
 }
 
 export function normalizeProducts(
-  products: ExtractedProduct[]
+  products: ExtractedProduct[],
+  options?: { canonicalMpn?: string }
 ): NormalizedProduct {
   if (!products || products.length === 0) {
     throw new Error("normalizeProducts called with empty product list");
@@ -241,10 +242,12 @@ export function normalizeProducts(
   );
 
   const base = products[0];
-  const mpn = base.mpn;
+  const effectiveMpn = options?.canonicalMpn ?? base.mpn;
+
+  const mpn = effectiveMpn;
   const manufacturer = base.manufacturer;
 
-  const isRAVariant = mpn.endsWith("RA");
+  const isRAVariant = effectiveMpn.endsWith("RA");
 
   const canonicalTitle =
     products.find(p => p.sourceType === "oem" && p.canonicalTitle)?.canonicalTitle ??
@@ -336,7 +339,7 @@ export function normalizeProducts(
     products.reduce((sum, p) => sum + p.confidence, 0) / products.length;
 
   return {
-    mpn: isRAVariant ? `${mpn}RA` : mpn,
+    mpn: effectiveMpn,
     manufacturer,
     canonicalTitle,
     displayTitle,
