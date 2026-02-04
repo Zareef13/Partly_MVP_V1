@@ -11,6 +11,8 @@ export async function runProductPipeline(input: {
 }) {
   const { mpn, manufacturer } = input;
   const canonicalMpn = mpn.replace(/[–—\s]+/g, "-").toUpperCase();
+  const isRAVariant = canonicalMpn.endsWith("RA");
+  const lookupMpn = isRAVariant ? canonicalMpn.replace(/RA$/, "") : canonicalMpn;
 
   const result: any = {
     mpn: canonicalMpn,
@@ -23,7 +25,7 @@ export async function runProductPipeline(input: {
   };
 
   // 1. DISCOVERY
-  const discovery = await discoverProductSources(canonicalMpn, manufacturer);
+  const discovery = await discoverProductSources(lookupMpn, manufacturer);
   result.discovery = discovery;
 
   if (!discovery.primaryProductUrl && discovery.backupUrls.length === 0) {
@@ -62,7 +64,7 @@ export async function runProductPipeline(input: {
   const extraction = extractFromHtml({
     html: crawl.html,
     sourceUrl: crawl.finalUrl,
-    mpn: canonicalMpn,
+    mpn: lookupMpn,
     manufacturer
   });
 

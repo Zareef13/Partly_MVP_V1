@@ -244,6 +244,8 @@ export function normalizeProducts(
   const mpn = base.mpn;
   const manufacturer = base.manufacturer;
 
+  const isRAVariant = mpn.endsWith("RA");
+
   const canonicalTitle =
     products.find(p => p.sourceType === "oem" && p.canonicalTitle)?.canonicalTitle ??
     products.find(p => p.canonicalTitle)?.canonicalTitle ??
@@ -315,11 +317,26 @@ export function normalizeProducts(
     }))
   );
 
+  if (isRAVariant) {
+    mergedSpecs["Remote Alarm"] = {
+      value: "Yes",
+      sources: ["variant:RA"],
+      confidence: 0.95
+    };
+
+    verbatimSections.push({
+      heading: "Variant",
+      text: "Includes remote alarm for system monitoring.",
+      source: "variant:RA",
+      confidence: 0.95
+    });
+  }
+
   const overallConfidence =
     products.reduce((sum, p) => sum + p.confidence, 0) / products.length;
 
   return {
-    mpn,
+    mpn: isRAVariant ? `${mpn}RA` : mpn,
     manufacturer,
     canonicalTitle,
     displayTitle,
